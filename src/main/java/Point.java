@@ -18,7 +18,7 @@ public class Point implements Comparable<Point> {
      * @param  y the <em>y</em>-coordinate of the point
      */
     public Point(int x, int y) {
-        /* PLEASE DO NOT MODIFY */
+        // TONOTDO: PLEASE DO NOT MODIFY
         this.x = x;
         this.y = y;
     }
@@ -27,7 +27,7 @@ public class Point implements Comparable<Point> {
      * Draws this point to standard draw.
      */
     public void draw() {
-        /* PLEASE DO NOT MODIFY */
+        // TONOTDO: PLEASE DO NOT MODIFY
         StdDraw.point(x, y);
     }
 
@@ -37,7 +37,7 @@ public class Point implements Comparable<Point> {
      * @param that the other point
      */
     public void drawTo(Point that) {
-        /* PLEASE DO NOT MODIFY */
+        // TONOTDO: PLEASE DO NOT MODIFY
         StdDraw.line(this.x, this.y, that.x, that.y);
     }
 
@@ -52,8 +52,8 @@ public class Point implements Comparable<Point> {
      * @return the slope between this point and the specified point
      */
     public double slopeTo(Point that) {
-        /* YOUR CODE HERE */
-      return x;
+        // TODO: YOUR CODE HERE
+        return x;
     }
 
     /**
@@ -63,12 +63,11 @@ public class Point implements Comparable<Point> {
      * @param  that the other point
      * @return the value <tt>0</tt> if this point is equal to the argument
      *         point (x0 = x1 and y0 = y1);
-     *         a negative integer if this point is less than the argument
-     *         point; and a positive integer if this point is greater than the
-     *         argument point
+     *         a negative integer if this point is less than the argument point;
+     *         and a positive integer if this point is greater than the argument point
      */
     public int compareTo(Point that) {
-        /* YOUR CODE HERE */
+        // TODO: YOUR CODE HERE
       return 0;
     }
 
@@ -78,19 +77,19 @@ public class Point implements Comparable<Point> {
      * @return the Comparator that defines this ordering on points
      */
     public Comparator<Point> slopeOrder() {
-        /* YOUR CODE HERE */
-      return null;
+        // TODO: YOUR CODE HERE
+        return null;
     }
 
 
     /**
      * Returns a string representation of this point.
-     * This method is provide for debugging;
+     * This method is provided for debugging;
      * your program should not rely on the format of the string representation.
      * @return a string representation of this point
      */
     public String toString() {
-        /* PLEASE DO NOT MODIFY */
+        // TONOTDO: PLEASE DO NOT MODIFY
         return "(" + x + ", " + y + ")";
     }
 
@@ -98,6 +97,6 @@ public class Point implements Comparable<Point> {
      * Unit tests the Point data type.
      */
     public static void main(String[] args) {
-        /* YOUR CODE HERE */
+        // TODO: YOUR CODE HERE (optional)
     }
 }

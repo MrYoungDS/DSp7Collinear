@@ -4,7 +4,6 @@
  *    <code> In in = new In(args[0]);</code>
  *   and comment out 
  *    <code> In in = new In("collinear-test-files/input10.txt"); </code>
- *
  *   If you are running the program in Eclipse, to switch
  *   file you are testing, change the file input. The test files
  *   are located in the collinear-test-files directory.  
@@ -45,5 +44,4 @@ public class CollinearPointsDriver {
     }
     StdDraw.show();
   }
-
 }

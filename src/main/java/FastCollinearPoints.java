@@ -9,18 +9,21 @@
  *      If so, these points, together with p, are collinear.
  *************************************************************************/
 public class FastCollinearPoints {
-   
-  public FastCollinearPoints(Point[] points) {
-     // finds all line segments containing 4 points
-   }
-   
-   public int numberOfSegments() {
-     // the number of line segments
-     return 0;
-   }
-   
-   public LineSegment[] segments() {
-     // the line segments
-     return null;
-   }
+
+    public FastCollinearPoints(Point[] points) {
+        // finds all line segments containing 4 points
+        // TODO: YOUR CODE HERE
+    }
+
+    public int numberOfSegments() {
+        // the number of line segments
+        // TODO: YOUR CODE HERE
+        return 0;
+    }
+
+    public LineSegment[] segments() {
+        // the line segments
+        // TODO: YOUR CODE HERE
+        return null;
+    }
 }

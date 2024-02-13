@@ -7,18 +7,21 @@
  *   between p and r, and between p and s are all equal.
  *************************************************************************/
 public class BruteCollinearPoints {
-   
-  public BruteCollinearPoints(Point[] points) {
-     // finds all line segments containing 4 points
-   }
-   
-   public int numberOfSegments() {
-     // the number of line segments
-     return 0;
-   }
-   
-   public LineSegment[] segments() {
-     // the line segments
-     return null;
-   }
+
+    public BruteCollinearPoints(Point[] points) {
+        // finds all line segments containing 4 points
+        // TODO: YOUR CODE HERE
+    }
+
+    public int numberOfSegments() {
+        // the number of line segments
+        // TODO: YOUR CODE HERE
+        return 0;
+    }
+
+    public LineSegment[] segments() {
+        // the line segments
+        // TODO: YOUR CODE HERE
+        return null;
+    }
 }
