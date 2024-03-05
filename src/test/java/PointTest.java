@@ -4,13 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 //import static org.junit.jupiter.api.Assertions.assertFalse;
 //import static org.junit.jupiter.api.Assertions.assertNotNull;
 //import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
+//import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.api.Test;
-
-import java.util.Comparator;
 
 public class PointTest {
 
@@ -103,12 +101,12 @@ public class PointTest {
             throw new IllegalStateException("Need SIZE to be >= 5.");
         }
         int[] solutionsFiveOrigin = {
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, // y = 5
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, // y = 1
-                -1, -1, -1, -1, -1, 0, 1, 1, 1, 1, 1, // y = 0
+                 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1, // y = 5
+                 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
+                 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
+                 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
+                 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1, // y = 1
+                -1, -1, -1, -1, -1,  0,  1,  1,  1,  1,  1, // y = 0
                 -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // y = -1
                 -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
                 -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,

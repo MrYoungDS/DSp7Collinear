@@ -1,13 +1,13 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+//import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
+//import static org.junit.jupiter.api.Assertions.assertFalse;
+//import static org.junit.jupiter.api.Assertions.assertNotNull;
+//import static org.junit.jupiter.api.Assertions.assertThrows;
+//import static org.junit.jupiter.api.Assertions.fail;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Timeout;
+//import org.junit.jupiter.api.BeforeEach;
+//import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.api.Test;
 
 import edu.princeton.cs.algs4.In;
@@ -17,11 +17,6 @@ import java.util.ArrayList;
 public class FastCollinearPointsTest {
 
     FastCollinearPoints fcpTest;
-
-    @BeforeEach
-    public void setUp() throws Exception {
-        fcpTest = generateFCP("input10.txt");
-    }
 
     private FastCollinearPoints generateFCP(String filename) {
         In in = new In("collinear-test-files/" + filename);

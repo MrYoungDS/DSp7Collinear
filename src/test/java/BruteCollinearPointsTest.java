@@ -1,17 +1,16 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+//import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
+//import static org.junit.jupiter.api.Assertions.assertFalse;
+//import static org.junit.jupiter.api.Assertions.assertNotNull;
+//import static org.junit.jupiter.api.Assertions.assertThrows;
+//import static org.junit.jupiter.api.Assertions.fail;
 
-import org.junit.jupiter.api.BeforeEach;
+//import org.junit.jupiter.api.BeforeEach;
+//import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import edu.princeton.cs.algs4.In;
 
@@ -34,7 +33,7 @@ public class BruteCollinearPointsTest {
   @Test
   public void testPointsFromAFile() {
     // points are shown here:
-    // https://www.desmos.com/calculator/8e0kt7iqwq
+    // https://www.desmos.com/calculator/14nsmtpw7u
 
     String filename;
 
